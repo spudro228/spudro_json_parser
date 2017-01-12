@@ -1,0 +1,19 @@
+{
+  "name": "spudro/Funct",
+  "description": "example project",
+  "minimum-stability": "dev",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Dmitry Smolyakov",
+      "email": "mompizzapls@mail.ru"
+    }
+  ],
+  "config": {
+    "disable-tls": true,
+    "secure-http": false
+  },
+  "autoload": {
+    "psr-4": { "Core\\": "core/" }
+  }
+}
